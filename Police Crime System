@@ -1,0 +1,61 @@
+# 🔵 Police Crime Record Management System
+
+> A full-stack Java + MySQL application to store and manage criminal records — suspects, victims, witnesses, evidence, and FIRs.
+
+---
+
+## 🛠️ Tech Stack
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![JDBC](https://img.shields.io/badge/JDBC-007396?style=for-the-badge&logo=java&logoColor=white)
+
+---
+
+## 📋 Features
+
+- ✅ Manage **suspects, victims, witnesses, evidence, and FIR records**
+- ✅ Full **CRUD operations** (Create, Read, Update, Delete)
+- ✅ **6 relational MySQL tables** with 3NF normalized schema
+- ✅ **15+ optimized SQL queries** with JOINs and indexed lookups
+- ✅ Structured data handling via **JDBC connectivity**
+
+---
+
+## 🗄️ Database Schema
+
+```
+suspects      → id, name, age, crime_type, status
+victims       → id, name, age, case_id
+witnesses     → id, name, statement, case_id
+evidence      → id, description, case_id, collected_date
+fir_records   → id, fir_number, date, officer_id, suspect_id
+officers      → id, name, badge_number, rank
+```
+
+---
+
+## 🚀 How to Run
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/Thanusha2520/police-crime-record-system.git
+
+# 2. Open in your IDE (Eclipse / IntelliJ)
+
+# 3. Import the SQL schema
+mysql -u root -p < schema.sql
+
+# 4. Update DB credentials in DBConnection.java
+String url = "jdbc:mysql://localhost:3306/crime_db";
+String user = "root";
+String password = "your_password";
+
+# 5. Run Main.java
+```
+
+---
+
+## 👩‍💻 Author
+
+**Thanusha S** — [LinkedIn](https://www.linkedin.com/in/thanusha-s-/) | [Portfolio](https://thanushast.netlify.app/)
