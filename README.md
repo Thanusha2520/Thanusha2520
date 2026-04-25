@@ -12,9 +12,7 @@
   <a href="https://thanushast.netlify.app/">
     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white"/>
   </a>
-  <a href="mailto:thanusha2520@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
+  
 </p>
 
 ---
@@ -26,7 +24,6 @@ I'm a Java Full Stack Developer based in Chennai with a BCA degree and hands-on 
 - 🔭 Currently improving: **Spring Boot REST API project**
 - 🌱 Currently learning: **JUnit testing, Git workflows, Microservices basics**
 - 💬 Ask me about: **Java · Spring Boot · Hibernate ORM · MySQL · JDBC**
-- 📫 Reach me: **thanusha2520@gmail.com**
 - ⚡ Fun fact: I built a criminal records management system before writing my first LinkedIn post
 
 ---
@@ -88,4 +85,4 @@ I'm a Java Full Stack Developer based in Chennai with a BCA degree and hands-on 
 I'm actively looking for **Java Developer / Full Stack Developer** roles in Chennai.
 If you're hiring — let's connect!
 
-📧 thanusha2520@gmail.com &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/thanusha-s-/) &nbsp;|&nbsp; 🌐 [Portfolio](https://thanushast.netlify.app/)
+🔗 [LinkedIn](https://www.linkedin.com/in/thanusha-s-/) &nbsp;|&nbsp; 🌐 [Portfolio](https://thanushast.netlify.app/)
